@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="./main.css">
+	<script src="./main.js"></script>
+	<title>轮播图</title>
+</head>
+
+<body>
+	<div id="container">
+		<div id="gallery" style="left: -600px;">
+			<!-- 排列在第一位的图片是最后一张图片的替补 -->
+			<img src="https://lg-gxg3fdgs-1254198195.cos.ap-shanghai.myqcloud.com/blog/20191116102426.png" alt="5">
+      <img src="https://lg-gxg3fdgs-1254198195.cos.ap-shanghai.myqcloud.com/blog/20191116102525.png" alt="1">
+      <img src="https://lg-gxg3fdgs-1254198195.cos.ap-shanghai.myqcloud.com/blog/20191116102601.png" alt="2">
+      <img src="https://lg-gxg3fdgs-1254198195.cos.ap-shanghai.myqcloud.com/blog/20191116102619.png" alt="3">
+      <img src="https://lg-gxg3fdgs-1254198195.cos.ap-shanghai.myqcloud.com/blog/20191116102653.png" alt="4">
+      <img src="https://lg-gxg3fdgs-1254198195.cos.ap-shanghai.myqcloud.com/blog/20191116102426.png" alt="5">
+      <img src="https://lg-gxg3fdgs-1254198195.cos.ap-shanghai.myqcloud.com/blog/20191116102525.png" alt="1">
+			<!-- <img src="https://picsum.photos/id/5/600/400" alt="5">
+			<img src="https://picsum.photos/id/1/600/400" alt="1">
+			<img src="https://picsum.photos/id/2/600/400" alt="2">
+			<img src="https://picsum.photos/id/3/600/400" alt="3">
+			<img src="https://picsum.photos/id/4/600/400" alt="4">
+			<img src="https://picsum.photos/id/5/600/400" alt="5">
+			<img src="https://picsum.photos/id/1/600/400" alt="1"> -->
+			<!-- 排列在最后一位的图片是第一张图片的替补 -->
+		</div>
+		<div id="indicators">
+			<span data-index=1 class="on"></span>
+			<span data-index=2></span>
+			<span data-index=3></span>
+			<span data-index=4></span>
+			<span data-index=5></span>
+		</div>
+		<a id="prev" class="arrow">◁</a>
+		<a id="next" class="arrow">▷</a>
+	</div>
+</body>
+
+</html>
